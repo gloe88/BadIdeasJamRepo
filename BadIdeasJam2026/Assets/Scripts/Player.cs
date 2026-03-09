@@ -38,7 +38,11 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Floor")) onGround = true;
-        if (collision.gameObject.tag.Equals("Wall")) onWall = true;
+        if (collision.gameObject.tag.Equals("Wall"))
+        {
+            onWall = true;
+            Debug.Log(collision.transform.position.x - transform.position.x);
+        }
         //enemy collision here
     }
     private void OnCollisionExit2D(Collision2D collision)
