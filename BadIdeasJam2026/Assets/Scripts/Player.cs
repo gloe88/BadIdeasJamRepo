@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     private InputActionAsset input;
     private Rigidbody2D rb;
     private BoxCollider2D col;
+    private bool onGround = false;
+    private bool onWall = false;
     
     void Start()
     {
@@ -29,6 +31,19 @@ public class Player : MonoBehaviour
 
     void Jump(InputAction.CallbackContext action)
     {
-        rb.AddForce(transform.up * jumpSpd * Time.deltaTime);
+        if (onGround) rb.AddForce(transform.up * jumpSpd);
+        else if (onWall) rb.AddForce(transform.up * jumpSpd);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Floor")) onGround = true;
+        if (collision.gameObject.tag.Equals("Wall")) onWall = true;
+        //enemy collision here
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Floor")) onGround = false;
+        if (collision.gameObject.tag.Equals("Wall")) onWall = false;
     }
 }
