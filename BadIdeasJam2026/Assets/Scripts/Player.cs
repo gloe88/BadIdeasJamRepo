@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     void Jump(InputAction.CallbackContext action)
     {
         if (onGround) rb.AddForce(transform.up * jumpSpd);
-        else if (onWall) rb.AddForce((transform.up * jumpSpd) + (transform.right * spd * wallDist);
+        else if (onWall) rb.AddForce((transform.up * jumpSpd) + (transform.right * spd * wallDist));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -43,6 +43,8 @@ public class Player : MonoBehaviour
         {
             onWall = true;
             wallDist = collision.transform.position.x - transform.position.x; //pos for wall to right
+            if (wallDist > 0) wallDist = 1f; //taking the L here b/c idk how to normalize a float
+            else if (wallDist < 0) wallDist = -1f;
         }
         //enemy collision here
     }
