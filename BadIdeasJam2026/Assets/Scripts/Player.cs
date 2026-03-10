@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private BoxCollider2D col;
     private bool onGround = false;
     private bool onWall = false;
+    private float wallDist = 0f;
     
     void Start()
     {
@@ -32,7 +33,7 @@ public class Player : MonoBehaviour
     void Jump(InputAction.CallbackContext action)
     {
         if (onGround) rb.AddForce(transform.up * jumpSpd);
-        else if (onWall) rb.AddForce(transform.up * jumpSpd);
+        else if (onWall) rb.AddForce((transform.up * jumpSpd) + (transform.right * spd * wallDist);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -41,7 +42,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag.Equals("Wall"))
         {
             onWall = true;
-            Debug.Log(collision.transform.position.x - transform.position.x);
+            wallDist = collision.transform.position.x - transform.position.x; //pos for wall to right
         }
         //enemy collision here
     }
