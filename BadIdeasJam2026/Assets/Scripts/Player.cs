@@ -59,7 +59,12 @@ public class Player : MonoBehaviour
     private bool CheckForWalls() //idk if this is the most efficient way to do this but whatever
     {
         RaycastHit2D rightCast = Physics2D.Raycast(transform.position, Vector3.right, wallDetect);
+        RaycastHit2D rightCastU = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + transform.localScale.y / 3), Vector3.right, wallDetect);
+        RaycastHit2D rightCastD = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - transform.localScale.y / 3), Vector3.right, wallDetect);
         RaycastHit2D leftCast = Physics2D.Raycast(transform.position, -Vector3.right, wallDetect);
+        RaycastHit2D leftCastU = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + transform.localScale.y / 3), -Vector3.right, wallDetect);
+        RaycastHit2D leftCastD = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - transform.localScale.y / 3), -Vector3.right, wallDetect);
+
         if (rightCast)
         {
             if (rightCast.transform.gameObject.tag.Equals("Wall") || rightCast.transform.gameObject.tag.Equals("Floor"))
