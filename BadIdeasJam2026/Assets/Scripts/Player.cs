@@ -106,6 +106,7 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) //for trap enemies
     {
         if (collision.gameObject.tag.Equals("Enemy")) resetLevel.Invoke();
+        if (collision.gameObject.tag.Equals("Finish")) MainMenu.Credits();
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -117,5 +118,6 @@ public class Player : MonoBehaviour
     private void Reset()
     {
         transform.position = initPos;
+        rb.linearVelocity = Vector2.zero;
     }
 }

@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Menus",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "0ecfe9ec-f610-42ec-86ab-38555b34efed",
+            "actions": [
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "92f96116-9361-4e6e-bfff-4fb7f79d60da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6bfc323-a83a-4e68-aba1-729230568ecc",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
