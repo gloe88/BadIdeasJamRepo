@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: faa7dea90d8fe1f4a86c3981d472f002
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3366653190348008905
+    second: RoughIncredibleGuy_0
+  - first:
+      213: 1374248449135419695
+    second: RoughIncredibleGuy_1
+  - first:
+      213: -2209361509631688803
+    second: RoughIncredibleGuy_2
+  - first:
+      213: 2462593531443741786
+    second: RoughIncredibleGuy_3
+  - first:
+      213: -5193523067398130517
+    second: RoughIncredibleGuy_4
+  - first:
+      213: -4458558997697229220
+    second: RoughIncredibleGuy_5
+  - first:
+      213: 8180460804418240934
+    second: RoughIncredibleGuy_6
+  - first:
+      213: -2201485659260051243
+    second: RoughIncredibleGuy_7
+  - first:
+      213: 381006911960531227
+    second: RoughIncredibleGuy_8
+  - first:
+      213: -5985289237958217033
+    second: RoughIncredibleGuy_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 513
+        width: 105
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cde0a44d31c8be20800000000000000
+      internalID: 3366653190348008905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 513
+        width: 110
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2129d3feaf421310800000000000000
+      internalID: 1374248449135419695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 525
+        width: 167
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f7bf5a965c651e0800000000000000
+      internalID: -2209361509631688803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 524
+        width: 139
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5401ebf4c3ec2220800000000000000
+      internalID: 2462593531443741786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 269
+        width: 167
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4ffe26946ece7b0800000000000000
+      internalID: -5193523067398130517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 267
+        width: 136
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e822cc6340022c0800000000000000
+      internalID: -4458558997697229220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 269
+        width: 153
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a10b5a72c5d68170800000000000000
+      internalID: 8180460804418240934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 261
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d020b5f470c271e0800000000000000
+      internalID: -2201485659260051243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 122
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11406c84cb994500800000000000000
+      internalID: 381006911960531227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoughIncredibleGuy_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 12
+        width: 241
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b23885462bffeca0800000000000000
+      internalID: -5985289237958217033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoughIncredibleGuy_0: 3366653190348008905
+      RoughIncredibleGuy_1: 1374248449135419695
+      RoughIncredibleGuy_2: -2209361509631688803
+      RoughIncredibleGuy_3: 2462593531443741786
+      RoughIncredibleGuy_4: -5193523067398130517
+      RoughIncredibleGuy_5: -4458558997697229220
+      RoughIncredibleGuy_6: 8180460804418240934
+      RoughIncredibleGuy_7: -2201485659260051243
+      RoughIncredibleGuy_8: 381006911960531227
+      RoughIncredibleGuy_9: -5985289237958217033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
